@@ -1,0 +1,35 @@
+.headerContainer {
+  width: 100%;
+  position: fixed;
+  top: -5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #4b28a8;
+  background-color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  width: fit-content;
+}
+
+.headerLink {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.headerButton {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 12px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 14px -5px rgba(34, 60, 80, 0.2);
+  transition-property: background, color;
+  transition-duration: .3s;
+}
+
+.headerButtonSelected {
+  background: #4b28a8;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.relation {
+  position: absolute;
+  background: rgba(75, 40, 168, 0.25);
+  color: #1c1616;
+  border-radius: 7px;
+  backdrop-filter: blur(10px);
+  padding: 7px 7px 9px;
+  z-index: 1;
+  font-size: 15px;
+  transition-property: background, color;
+  transition-duration: .4s;
+}
+
+.relationActive {
+  background: #4b28a8;
+  color: white;
+}
